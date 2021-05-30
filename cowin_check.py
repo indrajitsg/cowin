@@ -152,7 +152,7 @@ def main(argv):
     response = False
     while response is False:
         response = search(api=cowin, start=start_date, days_to_check=days)
-        # Delay for 60 seconds
+        # Wait for 15 seconds
         if not response:
             time.sleep(delay - ((time.time() - starttime) % delay))
         if exit_now:
