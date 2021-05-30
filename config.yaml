@@ -5,3 +5,5 @@ district: "Bangalore Urban"
 pincode: "560066"
 
 age: 18
+
+interval: 15.0
